@@ -1,0 +1,73 @@
+    1  git clone <https://github.com/TatiNagornaia/rsschool-cv.git>
+    2  git clone https://github.com/TatiNagornaia/rsschool-cv.git
+    3  git config --global user.name "Tati Nagornaia"
+    4  git config --global user.email "tatianana5607@gmail.com"
+    5  git config --global -l
+    6  git clone git@github.com:TatiNagornaia/learn_ICH.git
+    7  cd
+    8  ls -la
+    9  ls -al
+   10  ls -la Documents
+   11  ls -la learn_ICH
+   12  git status
+   13  ls -la git
+   14  git commit -m "Init commit"
+   15  echo '#!/bin/bash' >> file.sh
+   16  git status
+   17  git log
+   18  git remote -v
+   19  cd
+   20  ls -al
+   21  ls -la learn_ICH
+   22  echo "Test" >> README.md
+   23  git log
+   24  mkdir git_intro
+   25  cd git_intro
+   26  git init
+   27  cp C:\Users\Татьяна\Desktop\image\videoframe_1952.png ./git_intro/
+   28  cp C:/Users/Татьяна/Desktop/image/videoframe_1952.png ./git_intro/
+   29  cp C:/Users/Татьяна/Desktop/image/videoframe_1952.png ./git_intro/.git/
+   30  cp /C/Users/Татьяна/Desktop/image/videoframe_1952.png ./git_intro/.git/
+   31  cd /C/Users/Татьяна/Desktop/image/
+   32  cp videoframe_1952.png /C/Users/Татьяна/git_intro/.git/
+   33  cd /C/Users/Татьяна/git_intro/.git/
+   34  git add videoframe_1952.png
+   35  git add ./videoframe_1952.png
+   36  git add /C/Users/Татьяна/Desktop/image/videoframe_1952.png
+   37  cd /C/Users/Татьяна/Desktop/image
+   38  git add videoframe_1952.png
+   39  cd C/Users/Татьяна/Desktop/image
+   40  cd C/Users/Татьяна/Desktop/image/videoframe_1952.png
+   41  cd C/Users/Татьяна/Desktop/РАС
+   42  cd /C/Users/Татьяна/Desktop/РАС
+   43  git add Coffee.jpg
+   44  cp C/Users/Татьяна/Desktop/РАС/Coffee.jpg C/Users/Татьяна/gin_intro/.git
+   45  cd /C/Users/Татьяна/Desktop/РАС
+   46  git init
+   47  git add Coffee.jpg
+   48  git commit -m "Добавлен файл Coffee.jpg"
+   49  cp C/Users/Татьяна/Desktop/РАС/Coffee.jpg C/Users/Татьяна/gin_intro/
+   50  git push origin main
+   51  git push main
+   52  git add Coffee.jpg
+   53  git commit -m "Added photo"
+   54  git branch -M main
+   55  git remote add origin git@github.com:TatiNagornaia/git_intro.git
+   56  git push -u origin main
+   57  echo "# new_repo_12" >> .gitignore
+   58  git clone https://github.com/TatiNagornaia/new_repo_12.git
+   59  cd new_repo_12
+   60  git checkout -b feature
+   61  echo "# New project" >> README.md
+   62  echo "History.txt" >> .gitignore
+   63  git add README.md .gitignore
+   64  git commit -m "Added to changes README and .gitignor"
+   65  push -u origin feature
+   66  git push - u origin feature
+   67  git push -u origin feature
+   68  git commit --amend -m "Added to changes README and .gitignore (amend)"
+   69  git push --force
+   70  git checkout main
+   71  git merge feature
+   72  git push
+   73  history > history.txt
